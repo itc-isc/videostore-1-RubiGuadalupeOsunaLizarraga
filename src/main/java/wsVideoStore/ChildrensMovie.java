@@ -1,4 +1,8 @@
+package wsVideoStore;
 public class ChildrensMovie extends Movie {
+  /**
+   *
+   */
   public ChildrensMovie(String title) {
     super(title);
   }
@@ -13,5 +17,8 @@ public class ChildrensMovie extends Movie {
 
   public int determineFrequentRenterPoints(int daysRented) {
     return 1;
+  }
+  public int getPriceCode(){
+    return 3;
   }
 }

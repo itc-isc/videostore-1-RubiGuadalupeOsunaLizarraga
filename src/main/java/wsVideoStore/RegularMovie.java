@@ -1,3 +1,4 @@
+package wsVideoStore;
 public class RegularMovie extends Movie {
   public RegularMovie(String title) {
     super(title);
@@ -12,6 +13,9 @@ public class RegularMovie extends Movie {
   }
 
   public int determineFrequentRenterPoints(int daysRented) {
+    return 1;
+  }
+  public int getPriceCode(){
     return 1;
   }
 }
